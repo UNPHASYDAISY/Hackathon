@@ -1,0 +1,46 @@
+/* src/Components/Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background color */
+    min-height: 100vh; /* Ensures the container takes full height */
+}
+
+h2 {
+    font-size: 2rem; /* Larger font size for the main title */
+    margin-bottom: 1rem;
+    color: #4a90e2; /* Use your primary color for the heading */
+}
+
+h3 {
+    font-size: 1.5rem; /* Medium font size for the subheading */
+    margin-bottom: 20px;
+    color: #333; /* Darker color for subheading */
+    text-align: center; /* Center the subheading */
+}
+
+.carousel-container {
+    width: 100%; /* Full width for the carousel */
+    max-width: 800px; /* Maximum width to maintain a good layout */
+    margin: 0 auto; /* Centering the carousel */
+}
+
+.carousel-item {
+    padding: 20px; /* Padding for each carousel item */
+    border: 1px solid #ccc; /* Light border for each item */
+    border-radius: 8px; /* Rounded corners */
+    background-color: white; /* White background for items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+}
+
+.carousel-item h3 {
+    margin: 0 0 10px; /* Space between title and description */
+    font-size: 1.2rem; /* Font size for the event title */
+}
+
+.carousel-item p {
+    margin: 5px 0; /* Space for paragraphs */
+    color: #666; /* Grey color for text */
+}

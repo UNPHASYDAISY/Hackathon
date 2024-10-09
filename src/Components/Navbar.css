@@ -1,0 +1,35 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #4a90e2; /* Blue background color */
+    color: white; /* White text color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.navbar-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem; /* Space between links */
+}
+
+.navbar-links li {
+    display: inline;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: white; /* White text color for links */
+    font-size: 1.1rem;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
